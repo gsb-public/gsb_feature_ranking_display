@@ -167,6 +167,7 @@ function gsb_feature_ranking_display_views_default_views() {
 
   /* Display: Listing */
   $handler = $view->new_display('panel_pane', 'Listing', 'ranking_listing');
+  $handler->display->display_options['pane_title'] = 'Rankings';
   $handler->display->display_options['pane_category']['name'] = 'Other';
   $handler->display->display_options['pane_category']['weight'] = '0';
   $export['gsb_ranking_listing'] = $view;
