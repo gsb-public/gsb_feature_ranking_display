@@ -71,7 +71,7 @@ function gsb_feature_ranking_display_views_default_views() {
       ),
     ),
   );
-  /* Field: Content: Media Format */
+  /* Field: Field: Media Format */
   $handler->display->display_options['fields']['field_icon']['id'] = 'field_icon';
   $handler->display->display_options['fields']['field_icon']['table'] = 'field_data_field_icon';
   $handler->display->display_options['fields']['field_icon']['field'] = 'field_icon';
@@ -115,7 +115,7 @@ function gsb_feature_ranking_display_views_default_views() {
   $handler->display->display_options['filters']['field_search_field_value']['id'] = 'field_search_field_value';
   $handler->display->display_options['filters']['field_search_field_value']['table'] = 'field_data_field_search_field';
   $handler->display->display_options['filters']['field_search_field_value']['field'] = 'field_search_field_value';
-  $handler->display->display_options['filters']['field_search_field_value']['operator'] = 'contains';
+  $handler->display->display_options['filters']['field_search_field_value']['operator'] = 'allwords';
   $handler->display->display_options['filters']['field_search_field_value']['group'] = 1;
   $handler->display->display_options['filters']['field_search_field_value']['exposed'] = TRUE;
   $handler->display->display_options['filters']['field_search_field_value']['expose']['operator_id'] = 'field_search_field_value_op';
@@ -128,11 +128,19 @@ function gsb_feature_ranking_display_views_default_views() {
     151 => 0,
     16 => 0,
     21 => 0,
+    241 => 0,
     71 => 0,
     61 => 0,
     171 => 0,
     56 => 0,
     66 => 0,
+    201 => 0,
+    221 => 0,
+    216 => 0,
+    226 => 0,
+    231 => 0,
+    246 => 0,
+    236 => 0,
     31 => 0,
     36 => 0,
     41 => 0,
@@ -158,6 +166,15 @@ function gsb_feature_ranking_display_views_default_views() {
     176 => 0,
     181 => 0,
     186 => 0,
+    191 => 0,
+    206 => 0,
+    211 => 0,
+    251 => 0,
+    256 => 0,
+    261 => 0,
+    266 => 0,
+    271 => 0,
+    276 => 0,
   );
   $handler->display->display_options['filters']['field_search_field_value']['expose']['autocomplete_items'] = '10';
   $handler->display->display_options['filters']['field_search_field_value']['expose']['autocomplete_min_chars'] = '0';

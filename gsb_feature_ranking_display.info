@@ -1,7 +1,7 @@
 name = GSB Feature Ranking Display
 core = 7.x
 package = GSB
-version = 7.x-1.0
+version = 7.x-5.01
 project = gsb_feature_ranking_display
 dependencies[] = ds
 dependencies[] = views
